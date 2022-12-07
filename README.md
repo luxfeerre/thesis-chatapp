@@ -3,7 +3,7 @@
 This repository was setup for the thesis called:
 ## Emergency Communication for LoRaMesh using Blockchain and Distributed technologies
 
-It uses Golang 1.18 to build an application which integartes Ethereum smart contract through goquorum.
+It uses Golang 1.18 to build an application which integrates Ethereum smart contract through goquorum.
 Togther with Libp2p libary used to gain peer-to-peer capabilities togther with its pubsub package.
 This was then tested by using Testground.
 Next follows how this repository is set up and how to use it depnding on your needs.
