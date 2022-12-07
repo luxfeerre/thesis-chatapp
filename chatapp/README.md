@@ -1,11 +1,11 @@
-#**chatapp code repository**
+# **chatapp code repository**
 
 ## **How to use it**
 
-##**Infrastructure set up**
+## **Infrastructure set up**
 
-###**Ethereum full node goquorum set up**
+### **Ethereum full node goquorum set up**
 
-###**Remote Tracer set up**
+### **Remote Tracer set up**
 
-##**Program configuration**
+## **Program configuration**
