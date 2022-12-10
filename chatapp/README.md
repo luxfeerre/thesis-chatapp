@@ -13,7 +13,7 @@ Docker
 
 ## **Environment set up**
 
-<details><summary>OPERATING SYSTEM</summary><p>
+<details><summary>Operating System</summary><p>
 	
 ### **Operating System set up**
 	
@@ -60,7 +60,7 @@ docker run hello-world
 </p>
 </details>
 
-<details><summary>ETHEREUM FULL NODE</summary>
+<details><summary>Ethereum full node</summary>
 <p>
 	
 ### **Ethereum full node set up**
@@ -129,7 +129,7 @@ Then execute the script goqourum.sh to start the node from the directory where t
 </p>
 </details>
 
-<details><summary>SMART CONTRACT</summary>
+<details><summary>Smart contract</summary>
 <p>
 	
 ### **Deploy smart contract**
@@ -191,7 +191,7 @@ Where the 0x99ddD1DF9C9719294e8cD34B1FFCC6B03CfFeBB0should be changed to your sm
 </p>
 </details>
 
-<details><summary>REMOTE TRACER</summary>
+<details><summary>Remote tracer</summary>
 <p>
 	
 ### **Remote Tracer set up**
