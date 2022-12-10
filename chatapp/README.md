@@ -4,14 +4,20 @@
 
 ## **Depedencie list used for this project**
 Operating System: Ubuntu 20.04
+
 Golang: 18.x or 19.x
+
 Ethereum Node: Goquorum 22.7.1
+
 Puppeth
+
+Docker
+
 
 ## **Environment set up**
 
 ### **Operating System**
-Install Golang:
+### Install Golang:
 
 Download the golang package from: https://go.dev/doc/install
 
@@ -30,6 +36,10 @@ Then set the path for the golang package:
 Test the isntallation by using the command:
 
 **go version**
+
+### Install Docker:
+
+
 
 ### **Ethereum Node**
 Install Goquorum by following these steps:
