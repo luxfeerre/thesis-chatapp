@@ -5,9 +5,18 @@ here: https://github.com/luxfeerre/thesis-chatapp/blob/main/chatapp/README.md
 
 It will use Testground to execute the main.go program found in this repository.
 
-## How to use it
 
-## Environment set up
+## **Depedencie list used for this project**
+```
+Operating System: Ubuntu 20.04
+Golang: 18.x or 19.x
+Docker
+Testground 0.5.3
+```
+
+## **How to use it**
+
+## **Environment set up**
 
 <details><summary>Testground</summary>
 <p>
