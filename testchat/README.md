@@ -15,11 +15,11 @@ Testground 0.5.3
 ## **How to use it**
 
 ## **Environment set up**
-First follow the instructions here: 
+First follow the instructions here to set up the environment: 
 
 * https://github.com/luxfeerre/thesis-chatapp/blob/main/chatapp/README.md
 
-To set up the environment needed and then continue to the subsection Testground next.
+Then continue to the subsection Testground next.
 
 <details><summary>Testground</summary>
 <p>
