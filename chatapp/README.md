@@ -81,13 +81,19 @@ Then install puppeth with the command:
 
 After this step setup an Ethereum POA chain by first:
 
-First download the content from this repository: https://github.com/luxfeerre/thesis-chatapp/edit/main/chatapp/****
-Downloading the content from this repository which includes a support program main.go which can be used to get the private key for the account which we will create next. This key is needed when later uploading the smart contract to the chain.
+First download the content from this repository: https://github.com/luxfeerre/thesis-chatapp/tree/main/chatapp/goqourum
+Downloading the content with the directory from this repository which includes a support program main.go which can be used to get the private key for the account which we will create next. This key is needed when later uploading the smart contract to the chain.
 Thier is also the program goqourum.sh which will be used to start up the Ethereum full node.
+
+Then navigate to the new folder with the command:
+
+**cd goqourum**
 
 Executing the geth command to create a new account:
 
 **geth account new --datadir node_poa**
+
+This creates a new folder that contains the wallet for the new account.
 
 Executing the puppeth command:
 
