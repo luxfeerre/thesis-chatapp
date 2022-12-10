@@ -131,7 +131,9 @@ Then execute the script goqourum.sh to start the node from the directory where t
 
 <details><summary>Upload smart contract</summary>
 <p>
+	
 ### **Upload smart contract**
+	
 Use the Ethereum full node or setup a new node and be sure to install Ubuntu 20.04 or higher and the dependencies described above and then install the software from this part.
 
 Then download the entaier repository at: https://github.com/luxfeerre/thesis-chatapp/tree/main/chatapp
@@ -185,11 +187,13 @@ func StateInstance(client *ethclient.Client) (*state.State, error) {
 ```
 
 Where the 0x99ddD1DF9C9719294e8cD34B1FFCC6B03CfFeBB0should be changed to your smart contracts address.
+	
 </p>
 </details>
 
 <details><summary>Remote Tracer set up</summary>
 <p>
+	
 ### **Remote Tracer set up**
 
 Set this up on the same node as the Ethereum full node or on another node.
