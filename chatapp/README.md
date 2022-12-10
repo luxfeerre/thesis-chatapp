@@ -14,7 +14,7 @@ Docker
 ## **Environment set up**
 
 <details><summary>
-## Operating System set up
+	##Operating System set up
 </summary><p>
 	
 ### **Operating System set up**
