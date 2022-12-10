@@ -97,11 +97,11 @@ Executing the puppeth command:
 puppeth
 ```
 * Set the Network Name to **node_poa** 
-* Set consensus alogrithm to Clique(PoA)
-* Set block creation time to 1 second 
+* Set consensus alogrithm to **Clique(PoA)**
+* Set block creation time to **1 second** 
 * Set the signer account to the account created in the previouse step 
-* Set it to be a prefounded account and the network id to 101.
-* Then choose to write out the genesis file.
+* Set it to be a prefounded account and the network id to **101**(Otherwise the chain id will have to be changed in the program).
+* Then choose to write out the **genesis file with the default name**.
 
 Then modify the script goqourum.sh which can be found in the repository.
 Change the --http.addr xxx.xxx.xxx.xxx to a valid IPv4 address of your Ethereum node.
