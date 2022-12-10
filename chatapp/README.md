@@ -109,9 +109,49 @@ Change the --http.addr xxx.xxx.xxx.xxx to a valid IPv4 address of your Ethereum 
 Then execute the script goqourum.sh to start the node from the directory where the genesis file was created.
 
 ### **Upload smart contract**
-Setup a new node and be sure to install Ubuntu 20.04 or higher and the dependencies described above and then install the software from this part.
+Use the Ethereum full node or setup a new node and be sure to install Ubuntu 20.04 or higher and the dependencies described above and then install the software from this part.
 
+Then download the entaier repository at: https://github.com/luxfeerre/thesis-chatapp/tree/main/chatapp
 
+Then naviage to the chatapp folder through the command:
+
+**cd chatapp**
+
+Then use the script: 
+
+**bash recomplineSmartContract.sh**
+
+This will download two docker images and execute them to compile the smart contract state/State.sol.
+It will also generate the Golang code used by the contract and the application.
+
+Then on the Ethereum full node go to the directory goqourum.
+Thier use the command:
+
+go run main.go
+
+This will print out the private key for the account which will be used to deploy the smart contract to the private Ethereum network.
+
+Then on the node used to deploy the contract make sure you are in the chatapp directory.
+Then modify the file utils/contract_deploy.go and change line with this content:
+
+privateKey, err := crypto.HexToECDSA("811283a34a4429e520dc7f78bfc8be83fc756a6f79e823c91733b90210cd39f5")
+
+Where "811283a34a4429e520dc7f78bfc8be83fc756a6f79e823c91733b90210cd39f5" is changed to the private key for your Ethereum network which was printed ou in the main program. also chane the line with client, err := ethclient.Dial("http://192.168.2.12:8552") to your Ethereum full node IPv4 address.
+
+Make sure that the Ethereum full node is running and then use the shell script to deploy the contract with the command:
+
+**bash deployContract.sh**
+
+This writes out two lines and use the first one which is the address for the smart contract on your private blockchain.
+
+Add this to the file /ethereumService/ethereumService.go and change the function:
+
+func StateInstance(client *ethclient.Client) (*state.State, error) {
+	address := common.HexToAddress("0x99ddD1DF9C9719294e8cD34B1FFCC6B03CfFeBB0")
+	return state.NewState(address, client)
+}
+
+Where the 0x99ddD1DF9C9719294e8cD34B1FFCC6B03CfFeBB0should be changed to your smart contracts address.
 
 ### **Remote Tracer set up**
 
