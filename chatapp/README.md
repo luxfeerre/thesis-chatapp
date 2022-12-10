@@ -15,49 +15,49 @@ Docker
 
 <details><summary>Operating System set up</summary><p>
 	
-	### **Operating System set up**
+### **Operating System set up**
 	
-	#### Install Golang:
+#### Install Golang:
 	
-	Download the golang package from: https://go.dev/doc/install
+Download the golang package from: https://go.dev/doc/install
 	
-	Then navigate to the Downloads folder:
+Then navigate to the Downloads folder:
 	
-	```
-	cd ~/Downloads/
-	```
+```
+cd ~/Downloads/
+```
 	
-	Followed by executing the command with your golang package:
+Followed by executing the command with your golang package:
 	
-	```
-	sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.1.linux-amd64.tar.gz
-	```
+```
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.1.linux-amd64.tar.gz
+```
 	
-	Then set the path for the golang package:
+Then set the path for the golang package:
 	
-	```
-	echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bash_aliases
-	```
+```
+echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bash_aliases
+```
 	
-	Test the isntallation by using the command:
+Test the isntallation by using the command:
 	
-	```
-	go version
-	```
+```
+go version
+```
 	
-	#### Install Docker:
+#### Install Docker:
 	
-	Follow the instructions on https://docs.docker.com/engine/install/ubuntu/.
+Follow the instructions on https://docs.docker.com/engine/install/ubuntu/.
 	
-	Then optionaly add a user other then root to the Docker group so it can execute docker
-	by following the instructions here: https://docs.docker.com/engine/install/linux-postinstall/
+Then optionaly add a user other then root to the Docker group so it can execute docker
+by following the instructions here: https://docs.docker.com/engine/install/linux-postinstall/
 	
-	Then test the docker application out by running:
+Then test the docker application out by running:
 	
-	```
-	docker run hello-world
-	```
-	</p>
+```
+docker run hello-world
+```
+</p>
 </details>
 
 <details><summary>Ethereum full node set up</summary>
