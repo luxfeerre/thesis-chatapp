@@ -109,6 +109,7 @@ Change the --http.addr xxx.xxx.xxx.xxx to a valid IPv4 address of your Ethereum 
 Then execute the script goqourum.sh to start the node from the directory where the genesis file was created.
 
 ### **Upload smart contract**
+Setup a new node and be sure to install Ubuntu 20.04 or higher and the dependencies described above and then install the software from this part.
 
 
 
