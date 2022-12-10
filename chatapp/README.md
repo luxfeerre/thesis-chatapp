@@ -3,16 +3,13 @@
 ## **How to use it**
 
 ## **Depedencie list used for this project**
+```
 Operating System: Ubuntu 20.04
-
 Golang: 18.x or 19.x
-
 Ethereum Node: Goquorum 22.7.1
-
 Puppeth
-
 Docker
-
+```
 ## **Environment set up**
 
 ### **Operating System**
@@ -55,7 +52,7 @@ Be sure to install Ubuntu 20.04 or higher and the dependencies described above a
 
 Download Goquorum from this site: https://github.com/ConsenSys/quorum/releases
 
-Then untar the package by applying the tar command on 
+Then pack up the package by using the tar command on 
 your package as shown below by using the command:
 ```
 tar xfv geth_v22.7.1_linux_amd64.tar.gz
