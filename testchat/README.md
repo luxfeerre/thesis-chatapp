@@ -19,7 +19,7 @@ First follow the instructions here to set up the environment:
 
 * https://github.com/luxfeerre/thesis-chatapp/blob/main/chatapp/README.md
 
-Also, use the instructions in Operating System to setup the ground dependencies for the Testground node.
+Also, use the instructions in **Operating System** from the link to setup the ground dependencies for the Testground node.
 Then continue to the subsection Testground shown below.
 
 <details><summary>Testground</summary>
