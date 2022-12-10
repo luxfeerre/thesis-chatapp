@@ -11,17 +11,17 @@ Ethereum Node: Goquorum 22.7.1
 ## **Environment set up**
 ### **Operating System**
 Install Golang:
-Download the golang package from:
-https://go.dev/doc/install
 
-Then navigate to the Downloads folder:
+Download the golang package from: https://go.dev/doc/install
+
+Then navigate to the Downloads folder: \n
 **cd ~/Downloads/**
 
 Followed by executing the command with your golang package:
 **sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.1.linux-amd64.tar.gz**
 
 Then set the path for the golang package:
-** echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bash_aliases**
+**echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bash_aliases**
 
 Test the isntallation by using the command:
 **go version**
