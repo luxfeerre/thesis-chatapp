@@ -16,9 +16,9 @@ Testground 0.5.3
 
 ## **Environment set up**
 First follow the instructions here: 
-```
-https://github.com/luxfeerre/thesis-chatapp/blob/main/chatapp/README.md
-```
+
+* https://github.com/luxfeerre/thesis-chatapp/blob/main/chatapp/README.md
+
 To set up the environment needed and then continue to the subsection Testground next.
 
 <details><summary>Testground</summary>
