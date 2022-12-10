@@ -10,7 +10,9 @@ Ethereum Node: Goquorum 22.7.1
 Puppeth
 Docker
 ```
-## **Environment set up**
+
+<details><summary>## **Environment set up**</summary>
+<p>
 
 ### **Operating System**
 #### Install Golang:
@@ -168,4 +170,5 @@ Set this up on the same node as the Ethereum full node or on another node.
 
 Be sure to install Ubuntu 20.04 or higher and the dependencies described above and then install the software from this part.
 
-
+</p>
+</details>
