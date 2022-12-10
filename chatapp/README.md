@@ -17,7 +17,7 @@ Docker
 ## **Environment set up**
 
 ### **Operating System**
-### Install Golang:
+#### Install Golang:
 
 Download the golang package from: https://go.dev/doc/install
 
@@ -37,12 +37,12 @@ Test the isntallation by using the command:
 
 **go version**
 
-### Install Docker:
+#### Install Docker:
 
 
 
 ### **Ethereum Node**
-Install Goquorum by following these steps:
+#### Install Goquorum by following these steps:
 
 Download Goquorum from this site: https://github.com/ConsenSys/quorum/releases
 
@@ -58,6 +58,8 @@ Then move the geth package /usr/local/bin by using the command:
 Then try out the geht package by writing:
 
 **geth version**
+
+#### Setup a genesis block and start the full node
 
 Then setup the genesis block by using puppeth.
 So first the repository for the main branch of Ethereum geth is added with the command below:
@@ -89,9 +91,4 @@ Then execute the script goqourum.sh to start the node:
 
 ### **Upload smart contract**
 
-
-### **Testground setup**
-
 ### **Remote Tracer set up**
-
-## **Program configuration**
