@@ -134,9 +134,17 @@ This will print out the private key for the account which will be used to deploy
 Then on the node used to deploy the contract make sure you are in the chatapp directory.
 Then modify the file utils/contract_deploy.go and change line with this content:
 
+```
 privateKey, err := crypto.HexToECDSA("811283a34a4429e520dc7f78bfc8be83fc756a6f79e823c91733b90210cd39f5")
+```
 
-Where "811283a34a4429e520dc7f78bfc8be83fc756a6f79e823c91733b90210cd39f5" is changed to the private key for your Ethereum network which was printed ou in the main program. also chane the line with client, err := ethclient.Dial("http://192.168.2.12:8552") to your Ethereum full node IPv4 address.
+Where "811283a34a4429e520dc7f78bfc8be83fc756a6f79e823c91733b90210cd39f5" is changed to the private key for your Ethereum network which was printed ou in the main program. 
+Also chane the line with:
+```
+client, err := ethclient.Dial("http://192.168.2.12:8552")
+```
+
+To your Ethereum full node IPv4 address.
 
 Make sure that the Ethereum full node is running and then use the shell script to deploy the contract with the command:
 
