@@ -1,6 +1,4 @@
-# **chatapp code repository**
-
-## **How to use it**
+# **Chatapp repository with set up instructions**
 
 ## **Depedencie list used for this project**
 ```
@@ -10,6 +8,9 @@ Ethereum Node: Goquorum 22.7.1
 Puppeth
 Docker
 ```
+
+## **How to use it**
+
 ## **Environment set up**
 
 <details><summary>Operating System set up</summary>
