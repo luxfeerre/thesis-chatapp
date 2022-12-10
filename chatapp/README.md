@@ -13,9 +13,7 @@ Docker
 
 ## **Environment set up**
 
-<details><summary>
-	##Operating System set up
-</summary><p>
+<details><summary>OPERATING SYSTEM</summary><p>
 	
 ### **Operating System set up**
 	
@@ -62,7 +60,7 @@ docker run hello-world
 </p>
 </details>
 
-<details><summary>Ethereum full node set up</summary>
+<details><summary>ETHEREUM FULL NODE</summary>
 <p>
 	
 ### **Ethereum full node set up**
@@ -131,10 +129,10 @@ Then execute the script goqourum.sh to start the node from the directory where t
 </p>
 </details>
 
-<details><summary>Upload smart contract</summary>
+<details><summary>SMART CONTRACT</summary>
 <p>
 	
-### **Upload smart contract**
+### **Deploy smart contract**
 	
 Use the Ethereum full node or setup a new node and be sure to install Ubuntu 20.04 or higher and the dependencies described above and then install the software from this part.
 
@@ -193,7 +191,7 @@ Where the 0x99ddD1DF9C9719294e8cD34B1FFCC6B03CfFeBB0should be changed to your sm
 </p>
 </details>
 
-<details><summary>Remote Tracer set up</summary>
+<details><summary>REMOTE TRACER</summary>
 <p>
 	
 ### **Remote Tracer set up**
