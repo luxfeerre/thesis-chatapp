@@ -146,10 +146,12 @@ This writes out two lines and use the first one which is the address for the sma
 
 Add this to the file /ethereumService/ethereumService.go and change the function:
 
+```
 func StateInstance(client *ethclient.Client) (*state.State, error) {
 	address := common.HexToAddress("0x99ddD1DF9C9719294e8cD34B1FFCC6B03CfFeBB0")
 	return state.NewState(address, client)
 }
+```
 
 Where the 0x99ddD1DF9C9719294e8cD34B1FFCC6B03CfFeBB0should be changed to your smart contracts address.
 
