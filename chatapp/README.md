@@ -10,11 +10,11 @@ Ethereum Node: Goquorum 22.7.1
 Puppeth
 Docker
 ```
+## **Environment set up**
 
-<details><summary>## **Environment set up**</summary>
+<details><summary>Operating System set up</summary>
 <p>
-
-### **Operating System**
+### **Operating System set up**
 #### Install Golang:
 
 Download the golang package from: https://go.dev/doc/install
@@ -46,7 +46,13 @@ Then test the docker application out by running:
 ```
 docker run hello-world
 ```
-### **Ethereum Node**
+
+</p>
+</details>
+
+<details><summary>Ethereum full node set up</summary>
+<p>
+### **Ethereum full node set up**
 
 Be sure to install Ubuntu 20.04 or higher and the dependencies described above and then install the software from this part.
 
@@ -109,6 +115,11 @@ Then modify the script goqourum.sh which can be found in the repository.
 Change the --http.addr xxx.xxx.xxx.xxx to a valid IPv4 address of your Ethereum node.
 Then execute the script goqourum.sh to start the node from the directory where the genesis file was created.
 
+</p>
+</details>
+
+<details><summary>Upload smart contract</summary>
+<p>
 ### **Upload smart contract**
 Use the Ethereum full node or setup a new node and be sure to install Ubuntu 20.04 or higher and the dependencies described above and then install the software from this part.
 
@@ -163,7 +174,11 @@ func StateInstance(client *ethclient.Client) (*state.State, error) {
 ```
 
 Where the 0x99ddD1DF9C9719294e8cD34B1FFCC6B03CfFeBB0should be changed to your smart contracts address.
+</p>
+</details>
 
+<details><summary>Remote Tracer set up</summary>
+<p>
 ### **Remote Tracer set up**
 
 Set this up on the same node as the Ethereum full node or on another node.
