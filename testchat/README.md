@@ -26,7 +26,15 @@ Then continue to the subsection Testground shown below.
 <p>
 
 ### Testground installation and set up instructions
+Follow the instructions here to set up testground:
 
+* https://github.com/testground/testground
+
+Then copy this directory: testchat to the testground/plans/chatapp directory
+
+Next step test the plat by executing ./test.sh 1
+
+This will execute one node aginst a running testground instance.
 
 </p>
 </details>
@@ -35,6 +43,10 @@ Then continue to the subsection Testground shown below.
 <p>
 
 ### Metrics collection installation and set up instructions
+
+Follow the instructions here to set up the metrics collection node:
+
+* https://github.com/libp2p/go-libp2p-pubsub-tracer
 
 
 </p>
