@@ -23,7 +23,7 @@ Also, use the instructions in **Operating System** from the link to setup the gr
 
 Then do the same for the Metrics collection node, but on a seperate node.
 
-Then continue to the subsection Testground shown below.
+Then continue to the subsection Testground or Metrics collection as shown below.
 
 <details><summary>Testground</summary>
 <p>
