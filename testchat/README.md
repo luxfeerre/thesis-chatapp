@@ -30,3 +30,12 @@ Then continue to the subsection Testground shown below.
 
 </p>
 </details>
+
+<details><summary>Metrics collection</summary>
+<p>
+
+### Metrics collection installation and set up instructions
+
+
+</p>
+</details>
