@@ -20,6 +20,9 @@ First follow the instructions here to set up the environment:
 * https://github.com/luxfeerre/thesis-chatapp/blob/main/chatapp/README.md
 
 Also, use the instructions in **Operating System** from the link to setup the ground dependencies for the Testground node.
+
+Then do the same for the Metrics collection node, but on a seperate node.
+
 Then continue to the subsection Testground shown below.
 
 <details><summary>Testground</summary>
